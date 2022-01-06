@@ -6,6 +6,8 @@ ruby "3.0.2"
 # Use main development branch of Rails
 gem "rails", github: "rails/rails", branch: "main"
 
+gem 'devise', git: 'https://github.com/heartcombo/devise', branch: 'main'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
