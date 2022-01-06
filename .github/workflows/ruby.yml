@@ -56,6 +56,9 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Precompile Assets
+        run: bundle exec rails assets:precompile
+
       - name: Create database
         run: |
           bundle exec rails db:create
